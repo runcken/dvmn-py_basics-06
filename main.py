@@ -1,5 +1,5 @@
 def is_very_long(password):
-    return int(len(password) > 11)
+    return len(password) > 11
 
 
 def has_digit(password):
